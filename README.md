@@ -1,6 +1,6 @@
 # todo
 
-A new Flutter application.
+This is a test for flutter application
 
 ## Getting Started
 
