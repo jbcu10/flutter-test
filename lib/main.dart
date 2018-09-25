@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.grey,
         backgroundColor: Colors.blueGrey
       ),
-      home: new MyHomePage(title: 'Todo List'),
+      home: new MyHomePage(title: 'YTS Movies'),
 
     );
   }

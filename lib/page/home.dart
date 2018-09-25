@@ -83,17 +83,18 @@ class _MyHomePageState extends State<MyHomePage> {
         // in the middle of the parent.
         child:OrientationBuilder(
           builder: (context, orientation) {
+            print(orientation);
             return GridView.count(
               // Create a grid with 2 columns in portrait mode, or 3 columns in
               // landscape mode.
-              crossAxisCount: orientation == Orientation.portrait ? 2 : 3,
+              crossAxisCount: orientation == Orientation.portrait ? 1 : 2,
               primary: false,
-              crossAxisSpacing: 10.0,
+              crossAxisSpacing: 5.0,
               children: _data,
             );
           },
         )
-    )
+      )
     );
   }
 }
